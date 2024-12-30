@@ -1,5 +1,5 @@
 import speech_recognition as sr
-
+# ToDo: When the banned words are said beep them out from the audio.
 r = sr.Recognizer()
 banned_list = ['fuck', 'bitch', 'queer', 'fagot']
 
